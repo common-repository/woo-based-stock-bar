@@ -1,0 +1,66 @@
+/* 
+    Document   : stock-bar-style.css   
+*/
+
+.product-stock-countdown { float: right; margin: 15px 0 1px;   width: 100%;}
+.product-stock-countdown .countdown-container {
+    background: #efefef none repeat scroll 0 0;
+    display: block;
+    height: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 100%;
+}
+.product-stock-countdown .countdown-container .countdown-measure.amber {
+    background: #18ffff none repeat scroll 0 0;
+}
+.product-stock-countdown .countdown-container .countdown-measure.red {
+    background: #cc0000 none repeat scroll 0 0;
+}
+.product-stock-countdown .countdown-container .countdown-measure.green {
+    background: #ffcc33 none repeat scroll 0 0;
+}
+.product-stock-countdown .countdown-container .countdown-measure {
+    background: #339900 none repeat scroll 0 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 1s ease-out 0s;
+    width: 100%;
+}
+.product-stock-countdown .countdown-legend {
+    display: block;
+    height: 30px;
+    position: relative;
+    width: 100%;
+}
+.product-stock-countdown .countdown-legend span {
+    color: #555555;
+    font-size: 8px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+}
+.product-stock-countdown .countdown-legend span.tier-amber {
+    margin-left: -30px;
+}
+.product-stock-countdown .countdown-legend span {
+    color: #555555;
+    font-size: 8px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+}
+.product-stock-countdown .countdown-legend span {
+    color: #555555;
+    font-size: 8px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+}
+
+
+
